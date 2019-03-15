@@ -1,9 +1,10 @@
 {
-  "name": "uni-gpa",
+  "name": "uni-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run dev:h5",
+    "h5": "npm run dev:h5",
+    "wx": "npm run dev:mp-weixin",
     "build": "npm run build:h5",
     "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build",
     "build:mp-alipay": "cross-env NODE_ENV=production UNI_PLATFORM=mp-alipay vue-cli-service uni-build",
